@@ -1,0 +1,126 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 45px;
+    line-height: 100px;
+}
+
+h2{
+    font-size: 45px;
+    color: deeppink;
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+.gray-color{
+    color: dimgrey;
+    text-align: justify;
+}
+
+
+.half-width{
+    width: 38%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+section{
+    height: 650px;
+    padding-bottom: 200px;
+}
+.header-bg{
+    background-image: url("Images/header-bg.png");
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(85deg,deeppink,lightcoral, hotpink);
+    padding: 8px 27px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800px; 
+}
+
+.biography-bg{
+    background-image: url("Images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;     
+}
+
+
+.latest-work-bg{
+    background-image: url("Images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;     
+}
+
+.center-point{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .footer-bg{
+    background-image: url("Images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+    
+       
+ } 
+
+
+   .message-box{
+    border: 1px solid;
+    background-image: linear-gradient(85deg,deeppink,lightcoral, hotpink);
+    border-radius: 6px;
+    text-align: center; 
+    margin: 50px 400px;
+    padding: 30px;
+    color: white;
+    line-height: 40px;
+    
+} 
+
+.increase-font{
+    font-size: 30px;
+}
+
+.footer{
+    text-align: center;
+    color: dimgray;
+    line-height: 20px;
+}
+
+
+
