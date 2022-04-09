@@ -3,6 +3,8 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0%;
 }
+
+/* 1st part */
 h1{
     font-size: 45px;
     line-height: 100px;
@@ -25,12 +27,11 @@ h3{
 
 
 .half-width{
-    width: 38%;
+    width: 40%;
     float: left;
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    padding-left: 2%;
+    margin-top: 3%;
+    padding-left: 5%;      
 }
 
 .half-width img{
@@ -38,13 +39,15 @@ h3{
 }
 
 section{
-    height: 650px;
-    padding-bottom: 200px;
+    height: 700px;
 }
+
+
 .header-bg{
     background-image: url("Images/header-bg.png");
-    background-repeat: no-repeat; 
-    background-position: center; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 
 .link-button{
@@ -56,17 +59,21 @@ section{
     font-weight: 800px; 
 }
 
+/* 2nd part */
 .biography-bg{
     background-image: url("Images/biography-bg.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center;     
+    background-size: cover;     
 }
 
 
+/* 3rd part */
 .latest-work-bg{
     background-image: url("Images/latest-work-bg.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center;     
+    background-size: cover; 
 }
 
 .center-point{
@@ -79,11 +86,17 @@ section{
   
   .column {
     float: left;
-    width: 33.33%;
-    padding: 25px;
+    width: 30%;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 1%;
+  }
+
+  .column img { 
+    width: 100%;
   }
   
-  /* Clearfix (clear floats) */
+
   .row::after {
     content: "";
     clear: both;
@@ -91,14 +104,13 @@ section{
   }
   
 
+  /* 4th part */
   .footer-bg{
     background-image: url("Images/footer-bg.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center;  
-    
-       
+    background-size: cover;      
  } 
-
 
    .message-box{
     border: 1px solid;
@@ -109,7 +121,7 @@ section{
     padding: 30px;
     color: white;
     line-height: 40px;
-    
+    padding-top: 2%;  
 } 
 
 .increase-font{
